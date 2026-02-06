@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-weight: 700; /* negrito */
+  color: rgb(212, 95, 95); /* cor do nome “Lucas Fraga” */
+}
+
+h2 {
+  font-weight: 600;
+  color: rgb(212, 95, 95);
+}
+
+p {
+  font-weight: 400;
+  color: #ccc;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #000000;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.project-card {
+    background: #f0f0f0;
+    padding: 1rem;
+    border-radius: 6px;
+
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #222;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+a {
+    color: rgb(212, 95, 95);
+    text-decoration: none;
+}
+
+body {
+    background-color: #181818;
+    color: #fff;
+}
+
+H8 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.profile-pic {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    left: 460px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    border: 2px solid #000000;
+}
+
+.profile-pic4 {
+    width: 415px;
+    height: 600px;
+    object-fit: cover;
+    position: absolute;
+    top: 150px;
+    left: 420px;
+
+}
+
+.perfil-container {
+    display: flex;
+    align-items: center;
+    gap: 24px; /* Espaço entre a imagem e o texto */
+    margin-top: 220px;
+    margin-left: 900px;
+}
+
+.perfil-container2 {
+    display: flex;
+    align-items: center;
+    gap: 24px; /* Espaço entre a imagem e o texto */
+    margin-top: 100px;
+    margin-left: 900px;
+}
+
+.perfil-texto h1,
+.perfil-texto p {
+    margin: 0;
+    color: #fff;
+}
+
+#efeito-palavra {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.cursor {
+    display: inline-block;
+    width: 2px;
+    height: 1.2em;
+    background: #fff;
+    margin-left: 2px;
+    animation: blink 0.7s steps(1) infinite;
+    vertical-align: bottom;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 16px;
+    position: relative;
+    padding: 4px 12px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 16px;
+    position: relative;
+    padding: 4px 12px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+nav a.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: rgb(212, 95, 95);
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+}
+
+.palavra-destaque {
+    color: rgb(212, 95, 95);
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 60px 0 60px; /* ajuste conforme necessário */
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff; /* ou sua cor */
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+h9 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+p {
+    margin: 20px;
+}
+
+.perfil2-container {
+    display: flex;
+    align-items: center;
+    gap: 24px; /* Espaço entre a imagem e o texto */
+    margin-top: 0px;
+    margin-left: 800px;
+}
+
+.profile-pic2 {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 260px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    border: 2px solid #000000;
+}
+
+.container {
+    max-width: 3222220px;
+    margin: 0px auto;
+    padding: 23px;
+    background: #181818;
+    border-radius: 22px;
+    box-shadow: 3 33px 33px #00000033;
+    left: 0px;
+    position: absolute;
+    top: 522px;
+    left: 680px;
+}
+
+.icone {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+
+    position: absolute;
+    top: -100px;
+    left: 260px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    border: 2px solid #000000;
+}
+
+.container2 {
+    max-width: 3222220px;
+    margin: 0px auto;
+    padding: 23px;
+    background: #181818;
+    border-radius: 22px;
+    box-shadow: 3 33px 33px #00000033;
+    left: 0px;
+    position: absolute;
+    top: 522px;
+    left: 1050px;
+}
+
+.container3 {
+    max-width: 3222220px;
+    margin: 0px auto;
+    padding: 23px;
+    background: #181818;
+    border-radius: 22px;
+    box-shadow: 3 33px 33px #00000033;
+    left: 0px;
+    position: absolute;
+    top: 522px;
+    left: 1460px;
+}
+
+h5 {
+    color: #fff;
+    font-size: 14px
+}
